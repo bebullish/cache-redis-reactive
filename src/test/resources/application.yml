@@ -1,0 +1,12 @@
+redis:
+  uri: redis://localhost:30379/0
+  max-active: 8
+  max-idle: 8
+  max-wait: -1ms
+  min-idle: 0
+  timeout: 5000ms
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
